@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-05-21T04:15:13.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7tnitdcYoCJmexiiVSIk" version="21.3.2" type="github">
+  <diagram name="Page-1" id="3ftfTPytoQbpq2_4yqRJ">
+    <mxGraphModel dx="1562" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-u1fDimeLWn8FqMo8pag-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-1" value="read the pubsub" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-3" target="-u1fDimeLWn8FqMo8pag-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-3" value="load message to apientry py class" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-4" target="-u1fDimeLWn8FqMo8pag-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-4" value="assign attributes to collibra end point and enpoint operation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-6" target="-u1fDimeLWn8FqMo8pag-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-6" value="create collibra endpoint and encpoint operation json file" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-8" target="-u1fDimeLWn8FqMo8pag-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-8" value="save the input schema/ ouput schema spec to file" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-10" target="-u1fDimeLWn8FqMo8pag-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-10" value="run protoc" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-12" target="-u1fDimeLWn8FqMo8pag-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-12" value="parse the protoc outfile" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-14" target="-u1fDimeLWn8FqMo8pag-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-14" value="create schema&lt;br&gt;schema object&amp;nbsp;&lt;br&gt;schema element" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-u1fDimeLWn8FqMo8pag-16" target="-u1fDimeLWn8FqMo8pag-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-16" value="write to JSON file" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-u1fDimeLWn8FqMo8pag-18" value="create links between endpoint url to schema&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
